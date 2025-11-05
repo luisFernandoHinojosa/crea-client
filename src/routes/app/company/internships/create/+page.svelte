@@ -6,8 +6,8 @@
 	import { internshipService } from '$lib/services/internship.service';
 	import Alert from '$lib/components/common/alert.svelte';
 	import Input from '$lib/components/common/input.svelte';
-	import Button from '$lib/components/common/Button.svelte';
 	import type { Company } from '$lib/interfaces/user.interface';
+	import Button from '$lib/components/common/button.svelte';
 
 	let currentCompany = $appUser as Company; // Asumimos que el layout ya validó el rol
 
