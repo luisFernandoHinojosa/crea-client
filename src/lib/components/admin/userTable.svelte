@@ -2,7 +2,7 @@
 	import { createEventDispatcher } from 'svelte';
 	import { timeAgo } from '$lib/utils/helpers';
 	import type { Admin, Company, Student } from '$lib/interfaces/user.interface';
-	import Button from '../common/button.svelte';
+	import Button from '$lib/components/common/button.svelte';
 
 	export let users: (Student | Company | Admin)[] = [];
 	export let userTypeLabel: string; // 'Estudiantes' o 'Empresas'

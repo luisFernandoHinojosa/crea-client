@@ -5,8 +5,8 @@
 	import { appUser } from '$lib/stores/authStore';
 	import type { Role } from '$lib/types/user';
 	import { onMount } from 'svelte';
-	import Button from '../common/button.svelte';
-	import Input from '../common/input.svelte';
+	import Button from '$lib/components/common/button.svelte';
+	import Input from '$lib/components/common/input.svelte';
 
 	let email = '';
 	let password = '';

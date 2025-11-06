@@ -3,9 +3,9 @@
 	import type { Company } from '$lib/interfaces/user.interface';
 	import { updateUserProfile } from '$lib/services/auth.service';
 	import { onMount } from 'svelte';
-	import Alert from '../common/alert.svelte';
-	import Input from '../common/input.svelte';
-	import Button from '../common/button.svelte';
+	import Alert from '$lib/components/common/alert.svelte';
+	import Input from '$lib/components/common/input.svelte';
+	import Button from '$lib/components/common/button.svelte';
 
 	export let company: Company; // El perfil actual de la empresa se pasa como prop
 

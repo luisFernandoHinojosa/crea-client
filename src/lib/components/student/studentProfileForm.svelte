@@ -4,9 +4,9 @@
 	import { updateUserProfile } from '$lib/services/auth.service';
 	import { onMount, createEventDispatcher } from 'svelte';
 	import CvUploader from './cvUploader.svelte';
-	import Alert from '../common/alert.svelte';
-	import Input from '../common/input.svelte';
-	import Button from '../common/button.svelte';
+	import Alert from '$lib/components/common/alert.svelte';
+	import Input from '$lib/components/common/input.svelte';
+	import Button from '$lib/components/common/button.svelte';
 
 	export let student: Student; // El perfil actual del estudiante
 

@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { userRole, appUser } from '$lib/stores/authStore';
 	import { slide } from 'svelte/transition';
-	import Button from '../common/button.svelte';
+	import Button from '$lib/components/common/button.svelte';
 	import { signOut } from '$lib/services/auth.service';
 
 	export let mobileMenuOpen = false;

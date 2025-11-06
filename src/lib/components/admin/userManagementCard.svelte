@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Button from '../common/button.svelte';
-	import Card from '../common/card.svelte';
+	import Button from '$lib/components/common/button.svelte';
+	import Card from '$lib/components/common/card.svelte';
 
 	export let title: string;
 	export let description: string;

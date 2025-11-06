@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Button from '$lib/components/common/Button.svelte';
+	import Button from '$lib/components/common/button.svelte';
 	import { goto } from '$app/navigation';
 	import type { Internship } from '$lib/interfaces/internship.interface';
-	import Card from '../common/card.svelte';
+	import Card from '$lib/components/common/card.svelte';
 	import { timeAgo } from '$lib/utils/helpers';
 
 	export let internship: Internship;

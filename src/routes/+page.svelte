@@ -7,9 +7,7 @@
 		if ($appUser?.role === 'student') {
 			goto('/app/student/internships');
 		} else {
-			// Si es empresa o no logueado, podría ir a una vista pública de pasantías
-			// o al login si es necesario. Por ahora, genérico.
-			goto('/app/student/internships'); // Asumimos que hay una vista pública en esta ruta o que redirigirá.
+			goto('/auth/login');
 		}
 	}
 </script>
@@ -25,7 +23,7 @@
 	<div class="space-x-4">
 		<Button size="lg" onClick={exploreInternships}>Explorar Pasantías</Button>
 		{#if !$appUser}
-			<Button size="lg" variant="secondary" onClick={() => goto('/register')}
+			<Button size="lg" variant="secondary" onClick={() => goto('/auth/login')}
 				>Registrarse como Empresa</Button
 			>
 		{:else if $appUser.role === 'company'}

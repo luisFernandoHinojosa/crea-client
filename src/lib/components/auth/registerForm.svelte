@@ -4,9 +4,9 @@
 	import { userRole, appUser, setSimulatedRoleInLocalStorage } from '$lib/stores/authStore';
 	import type { AlertMessage } from '$lib/interfaces/common.interface';
 	import type { Role } from '$lib/types/user';
-	import Alert from '../common/alert.svelte';
-	import Input from '../common/input.svelte';
-	import Button from '../common/Button.svelte';
+	import Alert from '$lib/components/common/alert.svelte';
+	import Input from '$lib/components/common/input.svelte';
+	import Button from '$lib/components/common/button.svelte';
 
 	let email = '';
 	let password = '';

@@ -5,8 +5,8 @@
 	import { appUser } from '$lib/stores/authStore';
 	import { timeAgo } from '$lib/utils/helpers';
 	import { createEventDispatcher } from 'svelte';
-	import Card from '../common/card.svelte';
-	import Button from '../common/button.svelte';
+	import Card from '$lib/components/common/card.svelte';
+	import Button from '$lib/components/common/button.svelte';
 
 	export let application: InternshipApplication;
 	// Opcional: Pasar el perfil del estudiante si ya se tiene para evitar otra carga

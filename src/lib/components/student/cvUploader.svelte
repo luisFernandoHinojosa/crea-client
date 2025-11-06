@@ -4,8 +4,8 @@
 	import { internshipService } from '$lib/services/internship.service';
 	import { appUser } from '$lib/stores/authStore';
 	import { createEventDispatcher } from 'svelte';
-	import Alert from '../common/alert.svelte';
-	import Button from '../common/button.svelte';
+	import Alert from '$lib/components/common/alert.svelte';
+	import Button from '$lib/components/common/button.svelte';
 	export let currentCvUrl: string | undefined = undefined;
 	export let currentCvFileName: string | undefined = undefined;
 
