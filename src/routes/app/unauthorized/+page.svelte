@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>Acceso Denegado - PasantíasPRO</title>
+	<title>Acceso Denegado - CREA</title>
 </svelte:head>
 
 <div class="flex min-h-[calc(100vh-15rem)] flex-col items-center justify-center px-4 text-center">
