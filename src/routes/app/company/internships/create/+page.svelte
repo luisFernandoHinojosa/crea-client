@@ -33,7 +33,7 @@
 		if (!title || !description || !currentCompany?.uid || !currentCompany?.companyName) {
 			alertMsg = {
 				type: 'error',
-				message: 'Por favor, completa los campos obligatorios: Título y Descripción.'
+				message: 'Por favor, completed los campos obligatorios: Título y Descripción.'
 			};
 			isLoading = false;
 			return;
